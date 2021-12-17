@@ -1,0 +1,44 @@
+.container
+{
+    text-align: center;
+    justify-content: center;
+}
+
+.items
+{
+    margin: 0 auto;
+    width: 70%;
+    background: #6B7857;
+    text-align: center;
+}
+
+.remove-container
+{
+    justify-content: left;
+    text-align: left;
+}
+
+.qtd.remove
+{
+    color: white;
+    background: #333333;
+    
+}
+
+.qtd
+{
+    width: 20px;
+    padding: 0;
+}
+
+.qtd.text
+{
+    width: 20px;
+    text-align: center;
+}
+
+.subtotal
+{
+    text-align: right;
+    font-weight: bold;
+}

@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Livraria Jabuti</title>
+        <link rel="shortcut icon" type="image/x-icon" href="images/logo.png" />
+        <link rel="stylesheet" type="text/css" href="css/layout.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <script src="jquery/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/cart.js"></script>
+        <script type="text/javascript" src="js/addbooks.js"></script>
+
+
+    </head>
+    <body>
+        <div class="header">
+        <div class="title-image-container">
+                <img class="title-image" src="images/titulo.png"/>
+        </div>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cadastro.html">Cadastrar</a></li>
+                <li><a href="login.html">Fazer Login</a></li>
+                <li><a href="livros.html">Livros</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="quemsomos.html">Quem Somos</a></li>
+                <li><a href="carrinho.html">Carrinho</a></li>
+            </ul>
+        </div> 
+        <hr>
+        <picture>
+            <source media="(min-width: 800px)" srcset="images/banner-lg.png"/>
+            <source media="(min-width: 600px)" srcset="images/banner-md.png"/>
+            <img class="banner" src="images/banner-sm.png">
+        </picture>
+        
+
+        <div class="carousel">
+            <div class="carousel-inner">
+                <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+                <div class="carousel-item" id="buy13">
+                    <img class="item-image" src="images/livros/destaque1.jpg">
+                    <div class="item-description-container">
+                        <h1 class="item-description">Best-Seller!</h1>    
+                        <p class="item-description">O livro mais vendido da Livraria Jabuti! Presenteie seu amigo fã de Harry Potter com essa linda edição.</p>
+                        <p class="item-description">R$ 60,00</p>
+                        <p class="item-description">J. K. Rowling</p>
+                        <div class="item-button-container"><div  class="item-button-buy">Adicionar ao Carrinho</div></div>
+                    </div>
+                </div>
+                <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+                <div class="carousel-item" id="buy14">
+                    <img src="images/livros/destaque2.jpg">
+                    <div class="item-description-container">
+                        <h1 class="item-description">Hot Topic!</h1>    
+                        <p class="item-description">Se está na boca da galera, com certeza está nas nossas prateleiras. Conheça o livro da ganhadora do Nobel de 2018 que vem conquistando muita gente!</p>
+                        <p class="item-description">R$ 60,00</p>
+                        <p class="item-description">Olga Tokarczuk</p>
+                        <div class="item-button-container"><div  class="item-button-buy">Adicionar ao Carrinho</div></div>
+                    </div>
+                </div>
+                <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+                <div class="carousel-item" id="buy5">
+                    <img src="images/livros/destaque3.jpg">
+                    <div class="item-description-container">
+                        <h1 class="item-description">Promoção da Semana</h1>    
+                        <p class="item-description">Se voce é fã de uma boa investigação policial, Código da Vinci não pode faltar na sua coleção. O best-seller de Dan Brown estará em promoção durante toda a semana! </p>
+                        <p class="item-description">R$ 50,00</p>
+                        <p class="item-description">Dan Brown</p>
+                        <div class="item-button-container"><div  class="item-button-buy">Adicionar ao Carrinho</div></div>
+                    </div>
+                </div>
+                <br>
+                <ol class="carousel-indicators">
+                    <li>
+                        <label for="carousel-1" class="carousel-bullet">•</label>
+                    </li>
+                    <li>
+                        <label for="carousel-2" class="carousel-bullet">•</label>
+                    </li>
+                    <li>
+                        <label for="carousel-3" class="carousel-bullet">•</label>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+
+        <br><br>
+        <hr>
+        <div class="footer">
+            <div class="contactus">
+                <h3>Contato</h3>
+                <p>
+                    (13) 99672-5438
+                    <br>
+                    sac@livrariajabuti.com
+                </p>
+            </div>
+            <div class="socials">
+                <h3>Redes Sociais</h3>
+                <img src="images/facebooklogo.png">
+                 <a href="">Facebook</a>
+                <br>
+                <img src="images/instagramlogo.png">
+                <a href="">Instagram</a>
+            </div>
+            <div class="madeby">
+                <h3>Desenvolvedores</h3> 
+                <p>Gustavo Yuji Mekaru</p>
+            </div>
+            <div class="logo">
+                <img src="images/reversedlogo.png">
+            </div>
+        </div>
+    </body>
+</html>

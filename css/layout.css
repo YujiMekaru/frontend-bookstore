@@ -1,0 +1,137 @@
+body
+{
+  background: #758262;
+  margin: auto;
+  width: 100%;
+}
+
+body.modal-open
+{
+  overflow: hidden;
+}
+
+.is-hidden
+{
+  display: none;
+}
+
+.title-image-container
+{
+    display: flex;
+    justify-content: center;
+}
+
+.title-image
+{
+  width: 100%;
+  max-width: 400;
+  height: auto;
+}
+
+.item-button-container
+{
+  padding-top: 5%;
+  display: flex;
+  justify-content: center; 
+}
+
+.item-button-buy
+{
+  background: #333333;
+  width: 50%;
+  padding:10px;
+  text-align: center;
+ color: white;
+ cursor: pointer;
+}
+
+.item-button-buy:hover
+{
+  background: #262626;
+}
+
+
+ul
+{
+  background: #333333;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width:auto;
+  justify-content: center;
+  overflow: hidden;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+.footer
+{
+  display: flex;
+  justify-content: space-between;
+}
+.madeby
+{
+  display: none;
+}
+.logo
+{
+  display: none;
+}
+
+@media screen and (min-width: 650px)
+{
+body
+{
+    max-width: 1200px;
+    width: 90%;
+}
+
+ul
+{
+  background: #333333;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width:auto;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+.madeby
+{
+  display:block;
+}
+
+.logo
+{
+  display: block;
+}
+
+}
